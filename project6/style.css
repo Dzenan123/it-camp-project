@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.header {
+    height: 100vh;
+
+    display: flex;
+}
+.background {
+    background-image: url('slikabrt.png');
+    opacity:100%;
+
+}
+.prob{
+    background-color: black;
+}
+.navigation {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+}
+
+.navigation_logo {
+    height: 45px;       
+    
+}
+
+.navigation_container {
+    display:flex;
+    align-items: center;
+    
+}
+
+.navigation_container a {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    font-weight: bold;
+}
+#sire {
+    margin-left: 250px;
+}
+#slikasire {
+    margin-right: 20px;
+}
+.nav_button {
+    display: block;
+    background-color:#10c98f;
+    padding: 16px 40px;
+    
+}
+#fss {
+    font-weight: 200;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.header_primary-tittle {
+    color: white;
+    font-size: 65px;
+    
+}
+
+.horizontal-line {
+    width: 110px;
+    height: 3px;
+    background-color: white ;
+    margin-right: 210px;
+    margin-top: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header_tittle {
+    flex: 3;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 215px;
+    padding-top: 90px;
+}
+.finan {
+    font-size: 25px;
+    color: white;
+    padding-top: 30px;
+    
+}
+.pads {
+    padding-top: 10px;
+}
+
+.strel {
+    height: 15px;
+
+}
+.dugme {
+    text-decoration: none;
+    color: white;
+    padding: 22px 35px;
+    border: 2px solid white;
+    background-color: transparent;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.header_form {
+    flex: 2;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.form_card {
+    background-color: white;
+    width: 80%;
+    height: 70%;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+    
+}
+.ae {
+    margin-top: 40px;
+}
+.inl {
+    display: inline-block;
+    padding-right: 180px;
+    padding-top: 15px;
+    padding-bottom: 15px;  
+    font-size: 15px;
+    padding-left: 17px;
+    
+}
+.tezz {
+    border: 1px solid black;
+    width: 330px;
+    
+}
+.sred {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dugam {
+padding-left: 40px;
+}
+.malo {
+    padding-right: 188px;
+}   
+.horizontal-line--green {
+    width: 120px;
+    height: 3px;
+    background-color:#10c98f;
+    margin: 16px 0;
+    
+}
+.dolar {
+    color: #10c98f;
+    font-size: 18px;
+    font-weight: bold;
+}
+.grej {
+    color: darkslategray;
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.aply {
+    width: 330px;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:#10c98f;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.alijn {
+    text-align: center;
+    color:darkslategray;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+form label, input {
+    display:block;
+    
+} 
+input {
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    font-style: italic;
+    font-size: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.header1 {
+    width: 100%;
+    height: 100vh;
+
+    
+}
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.naslov1 {
+    font-weight: bold;
+    font-size: 39px;
+    margin-top: 100px;
+    
+}
+.linija1 {
+    height: 3px;
+    width: 100px;
+    background-color: #3EA57A;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.nesto1 {
+    margin-bottom: 50px;  
+    font-size: 17px;  
+    color:gray;
+}
+
+.glavni1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabela1 {
+    height: 300px;
+    width: 350px;
+    margin: 2px;
+}
+
+.logo1 {
+    height: 60px;
+    padding: 10px;
+}
+
+.loan1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #9F9F9F;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+.option1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.tool1   {
+    padding-left: 10px;
+    font-size: 15px;
+    color: black;
+}
+.header2 {
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+
+    
+}
+.slika2 {
+    display: flex;
+}
+.slika5 {
+    position: relative;
+    height: 550px;
+    margin: 120px;
+    border-radius: 5px;
+    
+}
+.slika6 {
+    position:absolute;
+    margin-top: 500px;
+    margin-left: 450px;
+    height: 220px;
+    
+    
+}
+
+.slikapart {
+    height: 100vh;
+    width: 50%;
+    
+}
+.otherpart {
+    height: 100vh;
+    width: 50%;
+    
+}
+.zajedno1 {
+    display: flex;
+}
+.slikabs {
+    display: flex;
+}
+.par1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 120px; 
+    margin-top: 120px;
+}
+.par2 {
+    color: gray;
+    margin-left: 120px;
+    font-size: 18px;
+    margin-top: 40px
+}
+.linija1 {
+    width: 550px;
+    margin-left: 120px;
+    height: 3px;
+    background-color: gray;
+    margin-top: 30px;
+}
+.tacka1 {
+    color: #10c98f;
+    font-size: 20px;
+    margin-left: 140px;
+}
+.button2 {
+    padding: 20px 40px;
+    border: 2px solid #10c98f;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color:#10c98f;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.tabele1 {
+    display:flex;
+    justify-content: space-evenly;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.tajb1 {
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    margin: 2px
+}
